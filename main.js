@@ -11,7 +11,7 @@ let now = new Date();
 
 const apikey = "3c9a3987d6e648cba84123549231310";
 
-// http://api.weatherapi.com/v1/current.json?key=3c9a3987d6e648cba84123549231310&q=madrid
+// https://api.weatherapi.com/v1/current.json?key=3c9a3987d6e648cba84123549231310&q=madrid
 
 
 
@@ -97,7 +97,7 @@ fetch(url)
 
 
 
-    // let url4days = `http://api.weatherapi.com/v1/forecast.json?key=3c9a3987d6e648cba84123549231310&q=${cityInInput}&days=5`
+    // let url4days = `https://api.weatherapi.com/v1/forecast.json?key=3c9a3987d6e648cba84123549231310&q=${cityInInput}&days=5`
 
     // fetch(url4days)
     //     .then(response => response.json())
