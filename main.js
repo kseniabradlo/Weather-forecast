@@ -34,7 +34,7 @@ e.preventDefault();
     console.log(cityInInput);
 
 
- let url = `http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${cityInInput}`
+ let url = `https://api.weatherapi.com/v1/current.json?key=${apikey}&q=${cityInInput}`
 
 fetch(url)
     .then(response => response.json())
