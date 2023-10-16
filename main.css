@@ -1,0 +1,113 @@
+body{font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(50, 48, 48);
+    display: flex;
+    flex-direction: column;}
+.cardDiv
+{border-radius: 14px;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    margin-top: 4%;
+    box-shadow: 10px 5px 5px 3px rgb(205, 201, 201);}
+
+h1{font-size: 35px;}
+
+.cardDiv .degreeAndIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.cardDiv .degreeAndIcon .degree{display: flex;
+    align-items: center;
+    font-size: 70px;
+    margin: 0px;
+}
+
+.cardDiv .degreeAndIcon .Fdegree{
+    color: rgb(113, 110, 110);
+    display: none;
+}
+
+.feelslike{margin-top: -14px;}
+header
+{padding: 30px;
+   padding-left: 100px;
+   background-color: rgb(94, 183, 153);
+   width: 100%;
+   display: flex;
+   justify-content: left;
+   color: azure;
+   font-size: 60px;
+   text-align: center;
+}
+
+.date{font-size: 20px;}
+
+.inputDiv{
+    margin-left: 27%;
+}
+
+.inputDiv input{
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+    width: 200px;
+
+}
+
+.inputDiv button{
+    padding: 10px;
+    border-radius: 7px;
+    width: 100px;
+    margin-left: -30px;
+    background-color: rgb(50, 48, 48);
+    color: white;
+    border: 1px solid rgb(50, 48, 48);
+}
+
+.inputDiv button:hover{
+    border: 1px solid rgb(159, 17, 17);
+    background-color: rgb(159, 17, 17);
+    color: white;
+   
+}
+
+img{
+    display: none;
+}
+
+
+
+
+.cardDivAndFourdaysDivs{
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.cardDivAndFourdaysDivs .fourdaysDivs{
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+/* border: 5px solid red; */
+width: 45%;
+flex-direction: row;
+
+}
+
+.cardDivAndFourdaysDivs .fourdaysDivs .one, .two, .three, .four{
+border-radius: 14px;
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    margin-top: 4%;
+    box-shadow: 10px 5px 5px 3px rgb(205, 201, 201);
+    margin-left: 10px;
+}
